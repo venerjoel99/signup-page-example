@@ -1,0 +1,47 @@
+
+.imageback {
+    padding: 0;
+    width: 34%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.image {
+    position: absolute;
+    padding: 0;
+    width: 34%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bannercontainer {
+    align-content: center;
+    height: 90%;
+}
+
+.banner {
+    align-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Norse Bold';
+}
+
+.footer {
+    height: 10%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
