@@ -107,4 +107,9 @@ a#author {
 .innersection {
     height: 100%;
     vertical-align: top;
+    padding-top: 44px;
+}
+
+.inputcombo {
+    padding-right: 44px;
 }
