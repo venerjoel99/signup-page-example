@@ -47,7 +47,11 @@
 }
 
 .footer {
+    display: flex;
     height: 10%;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -64,3 +68,23 @@ body {
     height: 100%;
     width: 100%;
 }
+
+a#author {
+    color: white;
+}
+
+.signup {
+    padding: 50px;
+    width: 66%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.inputcombo {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 5px;
+}
+
+.
