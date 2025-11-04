@@ -74,7 +74,7 @@ a#author {
 }
 
 .signup {
-    padding: 50px;
+    padding: 0px;
     width: 66%;
     height: 100%;
     object-fit: fill;
@@ -87,4 +87,24 @@ a#author {
     gap: 5px;
 }
 
-.
+.section {
+    background-color: gray;
+    height: 35%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.formsection {
+    background-color: white;
+    height: 30%;
+}
+
+.section, .formsection {
+    padding-left: 44px;
+}
+
+.innersection {
+    height: 100%;
+    vertical-align: top;
+}
