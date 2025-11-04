@@ -3,6 +3,10 @@
     src: url(./Norse-Bold.otf);
 }
 
+:root {
+    --main-font: Arial, Helvetica, sans-serif;
+}
+
 .imageback {
     padding: 0;
     width: 34%;
@@ -88,7 +92,7 @@ a#author {
 }
 
 .section {
-    background-color: gray;
+    background-color: rgba(230, 230, 230);
     height: 35%;
     display: flex;
     justify-content: baseline;
@@ -102,6 +106,7 @@ a#author {
 
 .section, .formsection {
     padding-left: 44px;
+    padding-right: 44px;
 }
 
 .innersection {
@@ -112,4 +117,48 @@ a#author {
 
 .inputcombo {
     padding-right: 44px;
+}
+
+button.createaccount {
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    background-color: #596D48;
+    padding: 10px 40px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: white;
+    font-size: 10pt;
+}
+
+.loginbanner {
+    font-family: var(--main-font);
+}
+
+a#logintext {
+    text-decoration: none;
+    color: #596D48;
+}
+
+h1.letsdothis {
+    font-family: var(--main-font);
+    color: rgba(50, 50, 50)
+}
+
+p.signuptext {
+    font-family: var(--main-font);
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+p.loginbanner {
+    margin-top: 10px;
+}
+
+div.textsection {
+    vertical-align: bottom;
+    padding-bottom: 44px;
 }
