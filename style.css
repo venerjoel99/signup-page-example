@@ -92,11 +92,11 @@ a#author {
 }
 
 .section {
-    background-color: rgba(230, 230, 230);
+    background-color: rgba(235, 235, 235);
     height: 35%;
     display: flex;
     justify-content: baseline;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .formsection {
@@ -111,12 +111,12 @@ a#author {
 
 .innersection {
     height: 100%;
-    vertical-align: top;
-    padding-top: 44px;
 }
 
 .inputcombo {
     padding-right: 44px;
+    gap: 0px;
+    margin: 5px 0px;
 }
 
 button.createaccount {
@@ -128,6 +128,7 @@ button.createaccount {
     font-weight: bold;
     color: white;
     font-size: 10pt;
+    margin-top: 20px;
 }
 
 .loginbanner {
@@ -159,6 +160,39 @@ p.loginbanner {
 }
 
 div.textsection {
-    vertical-align: bottom;
-    padding-bottom: 44px;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+.forminput {
+    font-size: 10pt;
+    padding: 5px;
+}
+
+.forminput:invalid {
+    font-size: 10pt;
+    padding: 5px;
+    border-color: red;
+}
+
+.forminput:focus {
+    font-size: 10pt;
+    padding: 5px;
+    border-color: blue;
+}
+
+.formlabel {
+    letter-spacing: 2px;
+    font-size: 8pt;
+    font-family: var(--main-font);
+    color: rgba(130, 130, 130);
+    font-weight: 700;
+}
+
+table {
+    margin: 20px;
+}
+
+.bottomsection {
+    box-shadow: inset 0px 8px 8px rgba(200, 200, 200);
 }
